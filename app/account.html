@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Million</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	
+	<link rel="icon" href="favicon.svg">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?v=0.1">
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="topline">
+				<div class="container topline-in">
+					<div class="logo">
+						<a href="#"><img src="img/logo.svg" alt=""></a>
+					</div>
+
+					<div class="hamburger js-toggle-menu">
+						<span class="hamburger-line hamburger-line--1"></span>
+						<span class="hamburger-line hamburger-line--2"></span>
+						<span class="hamburger-line hamburger-line--3"></span>
+					</div>  
+
+					<nav class="menu">
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a class="menu-item__link" href="javascript:goTo('#began', 0);">Where it all began</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item__link" href="javascript:goTo('#strategy', 0);">Strategy</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item__link" href="javascript:goTo('#performance',0);">Performance</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu-item__link" href="javascript:goTo('#program',0);">Affiliate Program</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="acbox">
+						<a href="#" class="acbox-link">My Account</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ./ header -->
+		
+		<main class="main-in">
+			<div class="container">
+				<h1 class="title">Earn with us</h1>
+
+				<div class="fbox">
+					<div class="fbox-form">
+						<h3>Loyalty Platform</h3>
+						<div class="fbox-txt">Earn 25% of each sale of our service through your referral link.</div>
+						<div class="fbox-inp">
+							<input type="text" class="inp inp--white" value="https://site.com/?r=1">
+						</div>
+						<div class="fbox-txt">Lead people and get paid from $50 to $2,500 per lead. Think of a traditional reseller partnership in which a third-party entity sells another vendor’s product to an end customer with little to no modifications.</div>
+					</div>
+
+					<div class="fbox-total">
+						<h4>Referral Balance</h4>
+						<div class="fbox-sum">490<span>/USD</span></div>
+						<div class="fbox-btn">
+							<a href="#" class="btn btn--green">Withdrawal</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="ref">
+					<div class="ref-empty">
+						<img src="img/rempty.svg" alt="">
+						<p>Referral history is empty</p>
+					</div>
+				</div>
+
+			</div>
+
+
+			<section class="bst bord">
+				<div class="container">
+					<h2 class="title">My Orders</h2>
+					<p class="bord-txt">To unlock the desired plan, go to the home page and pay for the plan by entering the E-mail address of your account.</p>
+				
+					<div class="bord-list">
+
+						<div class="bord-col">
+							<div class="bord-item">
+								<div class="bord-item__lab">Not paid</div>
+								<div class="bord-item__img">
+									<img src="img/bord-1.svg" alt="">
+								</div>
+								<div class="bord-item__title">Standard Plan</div>
+								<div class="bord-item__txt">
+									Learning with Experts offer a range of courses across crypto, finance and more.
+								</div>
+								<div class="bord-item__btn">
+									<button class="btn btn--green">Pay now</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="bord-col">
+							<div class="bord-item bord-item--paid">
+								<div class="bord-item__lab">Paid</div>
+								<div class="bord-item__img">
+									<img src="img/bord-2.svg" alt="">
+								</div>
+								<div class="bord-item__title">Advance Plan</div>
+								<div class="bord-item__txt">
+									Learning with Experts offer a range of courses across crypto, finance and more.
+								</div>
+								<div class="bord-item__btn">
+									<button class="btn btn--green">View PDF</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="bord-col">
+							<div class="bord-item">
+								<div class="bord-item__lab">Not paid</div>
+								<div class="bord-item__img">
+									<img src="img/bord-3.svg" alt="">
+								</div>
+								<div class="bord-item__title">Exclusive Plan</div>
+								<div class="bord-item__txt">
+									Learning with Experts offer a range of courses across crypto, finance and more.
+								</div>
+								<div class="bord-item__btn">
+									<button class="btn btn--green">Pay now</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<div class="container bsettings">
+				<h2 class="title">Settings</h2>
+				<p>Account settings. If you want change your personal data – change and save it here!</p>
+
+				<div class="bsettings-form">
+
+					<div class="bsettings-form__col">
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">Username</label>
+							<div class="bsettings-form__inp">
+								<input type="text" readonly disabled class="inp inp--gray" value="ibrahim">
+							</div>
+						</div>
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">E-mail</label>
+							<div class="bsettings-form__inp">
+								<input type="email" readonly disabled class="inp inp--gray" value="ibrahim@gmail.com">
+							</div>
+						</div>
+					</div>
+
+					<div class="bsettings-form__col">
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">First name</label>
+							<div class="bsettings-form__inp">
+								<input type="text" class="inp inp--gray" value="ibrahim">
+							</div>
+						</div>
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">Last name</label>
+							<div class="bsettings-form__inp">
+								<input type="text" class="inp inp--gray" value="Octona">
+							</div>
+						</div>
+					</div>
+
+					<div class="bsettings-form__col">
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">New Password</label>
+							<div class="bsettings-form__inp">
+								<input type="password" class="inp inp--gray" placeholder="Enter if you want to change">
+							</div>
+						</div>
+						<div class="bsettings-form__gp">
+							<label class="bsettings-form__lab">Repeat New Password</label>
+							<div class="bsettings-form__inp">
+								<input type="password" class="inp inp--gray" placeholder="Repeat New Password">
+							</div>
+						</div>
+					</div>
+
+					<div class="bsettings-btn">
+						<button class="btn btn--green">Save Settings</button>
+					</div>
+
+				</div>
+			</div>
+
+
+			<section class="bpartners">
+				<div class="container">
+					<div class="bpartners-wp">
+						<ul class="bpartners-list">
+							<li>
+								<img src="img/logo-blockchain.png" alt="">
+							</li>
+							<li>
+								<img src="img/logo-cryptocurrent.png" alt="">
+							</li>
+							<li>
+								<img src="img/logo-cryptospeaker.png" alt="">
+							</li>
+							<li>
+								<img src="img/logo-btc-experts.png" alt="">
+							</li>
+							<li>
+								<img src="img/logo-coin-tend.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- ./ main -->
+		
+		<footer class="footer">
+			<div class="container footer-in">
+
+				<div class="footer-left">
+					<div class="footer-logo">
+						<img src="img/flogo.svg" alt="">
+					</div>
+
+					<div class="footer-copy">
+						Copyright &copy; 2020-2023 Company. Design by Amnesia Studio NY City. All rights reserved
+					</div>
+				</div>
+
+				<div class="footer-right">
+					<div class="footer-caption"><span>Scale up easily.</span> Go global. Take a look into the future of crypto.</div>
+					<div class="footer-txt">In 2021, CompanyName combined with Inception Analysis, Incorporated to strengthen its expertise in energy matters and opened its first office in Cupertino. We know our clients’ brands inside and out to create bespoke campaigns that bring the brand story to life, engage with consumers and inspire the media.</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ./ footer -->
+	</div>
+
+
+
+	<div class="popup popup-video" id="popup-video">
+		<div class="popup-video__container">
+			<div class="popup-video__iframe"></div>
+			<button class="btn popup-video__close" onclick="popup.videoClose('#popup-video');">
+				<i class="flaticon-close"></i>
+				<span>Close video</span>
+			</button>
+		</div>
+		<div class="popup__overlay"></div>
+	</div>
+	<!-- ./ popup-video -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="js/core.min.js?v=0.02"></script>
+
+</body>
+</html>
